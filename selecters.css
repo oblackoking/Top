@@ -1,0 +1,17 @@
+h1 {
+    color: grey;
+}
+
+body {
+    background-color: bisque;
+}
+
+table {
+    background-color: white;
+}
+
+.my {
+    background-color: antiquewhite;
+    height: 40px;
+    font-size: 30px;
+}
