@@ -1,17 +1,39 @@
-h1 {
-    color: grey;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+.container {
+    max-width: 700px;
+    margin: auto;
 }
 
+.image{
+    border-radius: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
 body {
-    background-color: bisque;
+    background-color: #f1f1f1;
+    font-family: "Roboto";
+    margin-bottom: 10px;
 }
 
-table {
-    background-color: white;
-}
 
 .my {
-    background-color: antiquewhite;
+    
     height: 40px;
-    font-size: 30px;
+    font-size: 25px;
+}
+
+.mysites {
+    height: 30px;
+}
+
+.card {
+    border: 2px solid #ADFF2F;
+    border-radius: 10px;
+    background-color:#ADFF2F ;
+}
+
+.card2 {
+    border: 2px solid #E6E6FA;
+    border-radius: 10px;
+    background-color:#E6E6FA ;
+    margin-top: 15px;
 }
