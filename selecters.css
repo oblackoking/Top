@@ -60,3 +60,20 @@ a:hover {
 a:active {
     color: #551a8b;
 }
+
+.mydatas {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.submit {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+}
+.submit:hover {
+    opacity: 0.7;
+}

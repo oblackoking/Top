@@ -8,7 +8,16 @@
     <meta name="description" content="Это артурин сайт">
     <title>Arthur.site</title>
     <link rel="stylesheet" href="selecters.css">
-
+ <style>
+    @media (max-width=500px) {
+        .container{
+            font-size: 1,5rem;
+            padding: 10px;
+            text-align: center;
+        }
+        
+    }
+ </style>
 </head>
 <body>
 <div class="container">
@@ -74,28 +83,31 @@
 </tbody>
 </table>
 </div>
-<p><Strong>
+<div class="mydatas">
+<div><Strong>
     Связаться со мной</Strong>
-</p>
+</div>
 <form>
-<div>
+<div class="names">
     <label for="name">Ваше имя</label>
     <input type="name" id="name" placeholder="Введите ваше имя">
 </div>
 
-<div>
+<div class="email">
     <label for="email">Ваш email</label>
     <input type="email" id="email" placeholder="Введите ваш email">
 </div>
 
-<div>
+<div class="message">
     <label for="message">Ваше сообщение:</label>
     <br>
     <textarea name="message" id="message" cols="30" rows="5" placeholder="Введите ваше сообщение . . . Если вы Опайка, то ничего не пиши всё равно ни куда не придёт)"></textarea>
 </div>
 
-<input type="submit" value="Отправить!">
-</div>
+<input  class="submit" type="submit" value="Отправить!">
+
 </form>
+</div>
+</div>
 </body>
 </html>
